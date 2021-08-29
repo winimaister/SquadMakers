@@ -1,0 +1,11 @@
+Feature: Realizar una compra
+	#Primer escenario con 4 pasos
+	Scenario: Comprar 3 objetos
+		When nos logueamos y seleccionamos 3 objetos
+		Then realizamos el pago desde el carrito de compra.
+
+Feature: Realizar logout
+	#Pirmer Escenario dos pasos
+	Scenario: Iniciar sesion
+		When iniciamos sesion
+		Then cerramos sesion desde el menú desplegable
